@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"strict": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noImplicitThis": true,
+		"declaration": true,
+		"lib": ["ESNext", "DOM"],
+		"outDir": "dist",
+		"target": "ESNext",
+		"types": ["node"]
+	},
+	"include": ["src/lib/index.ts"],
+	"exclude": ["dist", "node_modules"]
+}

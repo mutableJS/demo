@@ -1,0 +1,31 @@
+{
+	"name": "@mutablejs/demo",
+	"version": "0.0.1",
+	"description": "mutableJS demo package - Todo app",
+	"keywords": [
+		"mutable DOM",
+		"reactive DOM",
+		"DOM mutability demo",
+		"DOM reactivity demo",
+		"Todo demo app"
+	],
+	"main": "index.html",
+	"scripts": {
+		"start": "npx vite"
+	},
+	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://donnikitos.com/)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mutableJS/demo"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^17.0.23",
+		"typescript": "^4.5.5",
+		"vite": "^2.8.4"
+	},
+	"dependencies": {
+		"@mutablejs/core": "^0.1.1",
+		"@mutablejs/dom": "^0.0.1"
+	}
+}
