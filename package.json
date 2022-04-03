@@ -7,7 +7,17 @@
 		"reactive DOM",
 		"DOM mutability demo",
 		"DOM reactivity demo",
-		"Todo demo app"
+		"Todo demo app",
+		"front-end",
+		"development",
+		"ui",
+		"user interface",
+		"components",
+		"javascript",
+		"typescript",
+		"dom",
+		"dom manipulation",
+		"web"
 	],
 	"main": "index.html",
 	"scripts": {
