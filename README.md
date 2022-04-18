@@ -1,8 +1,8 @@
 # mutableJS / Demo
 
-Demo repo
+Demo repo: Simple ToDo-app written with [@mutablejs/core](https://www.npmjs.com/package/@mutablejs/core) and [@mutablejs/dom](https://www.npmjs.com/package/@mutablejs/dom)
 
-[![GitHub](https://img.shields.io/github/license/mutablejs/demo?color=blue&style=for-the-badge)](https://github.com/mutableJS/demo/blob/master/LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/mutablejs/dom?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/mutablejs/demo?color=blue&style=for-the-badge)](https://github.com/mutableJS/demo/blob/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mutablejs/demo?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/mutableJS/demo?style=for-the-badge)](https://github.com/mutableJS/demo/issues)
 
 ## FAQ
