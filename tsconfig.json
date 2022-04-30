@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"baseUrl": "./src",
+		"alwaysStrict": true,
 		"strict": true,
 		"isolatedModules": true,
 		"allowSyntheticDefaultImports": true,
@@ -11,8 +12,12 @@
 		"lib": ["ESNext", "DOM"],
 		"outDir": "dist",
 		"target": "ESNext",
-		"types": ["node"]
+		"types": ["node"],
+		"noErrorTruncation": true,
+		"skipLibCheck": true,
+		"jsxFactory": "mutableElement",
+		"jsxImportSource": "@mutablejs/dom"
 	},
-	"include": ["src/lib/index.ts"],
+	"include": ["src"],
 	"exclude": ["dist", "node_modules"]
 }
