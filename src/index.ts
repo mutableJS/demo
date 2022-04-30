@@ -21,8 +21,6 @@ const children = mutableFn(({ todos: items }: { todos: string[] }) =>
 	),
 );
 
-mutableElement('input', { type: 'email', value: '' });
-
 //	Add elements to app
 root?.append(
 	mutableElement(
