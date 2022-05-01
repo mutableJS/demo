@@ -1,4 +1,5 @@
 import mutable, { mutableFn } from '@mutablejs/core';
+import mutableElement from '@mutablejs/dom';
 
 // Constants
 const maxTodos = 50;
@@ -28,10 +29,10 @@ const renderList = mutableFn(({ todos: items }: { todos: string[] }) => {
 //	App root
 const root = document.getElementById('root');
 
-root.replaceChildren(
+root?.replaceChildren(
 	<form
 		style={{ display: 'flex', gap: '10px', flexDirection: 'column' }}
-		onsubmit={(event) => {
+		onsubmit={(event: SubmitEvent) => {
 			event.preventDefault();
 
 			todos.value.push(input.value);
@@ -70,7 +71,7 @@ root.replaceChildren(
 			<input
 				type="text"
 				value={input}
-				onkeyup={(event) => {
+				onkeyup={(event: InputEvent) => {
 					if (event.target instanceof HTMLInputElement) {
 						input.value = event.target.value;
 					}
