@@ -21,7 +21,8 @@
 	],
 	"main": "index.html",
 	"scripts": {
-		"start": "npx vite"
+		"start": "npx vite",
+		"build": "npx vite build"
 	},
 	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://donnikitos.com/)",
 	"repository": {
