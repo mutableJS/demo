@@ -15,8 +15,8 @@
 		"types": ["node"],
 		"noErrorTruncation": true,
 		"skipLibCheck": true,
-		"jsxFactory": "mutableElement",
-		"jsxImportSource": "@mutablejs/dom"
+		"jsx": "react",
+		"jsxFactory": "mutableElement"
 	},
 	"include": ["src"],
 	"exclude": ["dist", "node_modules"]
