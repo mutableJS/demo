@@ -32,7 +32,7 @@ const root = document.getElementById('root');
 root?.replaceChildren(
 	<form
 		style={{ display: 'flex', gap: '10px', flexDirection: 'column' }}
-		onsubmit={(event: SubmitEvent) => {
+		onsubmit={(event) => {
 			event.preventDefault();
 
 			todos.value.push(input.value);
@@ -71,7 +71,7 @@ root?.replaceChildren(
 			<input
 				type="text"
 				value={input}
-				onkeyup={(event: InputEvent) => {
+				onkeyup={(event) => {
 					if (event.target instanceof HTMLInputElement) {
 						input.value = event.target.value;
 					}
