@@ -10,10 +10,10 @@
     "@mutablejs/core" "^0.1.4"
     events "^3.3.0"
 
-"@mutablejs/dom@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@mutablejs/dom/-/dom-0.2.0.tgz#dafa714d9e868373ce94552fb1a5440ade9176cf"
-  integrity sha512-N8wkZ2+AoZvGeFE/8aB4W6aZJjOl0jc6VBLxCgfS5utrUCxz+N4MPDOvrs5WjesHbMaMixp14iINqwPRVGkEiw==
+"@mutablejs/dom@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@mutablejs/dom/-/dom-0.2.1.tgz#c789f0b4716489d68de66ff0e668babed8725ba5"
+  integrity sha512-x2YmiZ/WvSc6yKOIgqARO1Wwd8D5UZHoffidm09e0K+Q1iIcz7E+LfEn2pNurZWAAgn3HVJThQF6fmKr8NodlQ==
   dependencies:
     "@mutablejs/core" "^0.1.6"
 
