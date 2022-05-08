@@ -9,12 +9,12 @@ const input = mutable<string>('mutable string');
 const todos = mutable<string[]>([]);
 
 // Computed Values
-const isDisabled = mutableFn(
-	({ input }: { input: unknown[] }) => input.length >= maxTodos,
-)({ input: todos });
+const isDisabled = mutableFn((items: string[]) => items.length >= maxTodos)(
+	todos,
+);
 
 // Renderer
-const renderList = mutableFn(({ todos: items }: { todos: string[] }) => {
+const renderList = mutableFn((items: string[]) => {
 	return items.map((item, i) => (
 		<li
 			onclick={() => {
@@ -79,6 +79,6 @@ root?.replaceChildren(
 			/>
 			<button>Add</button>
 		</fieldset>
-		<ul>{renderList({ todos })}</ul>
+		<ul>{renderList(todos)}</ul>
 	</form>,
 );
