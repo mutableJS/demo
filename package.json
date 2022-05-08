@@ -37,7 +37,7 @@
 		"vite": "^2.9.8"
 	},
 	"dependencies": {
-		"@mutablejs/core": "^0.1.7",
+		"@mutablejs/core": "^0.1.71",
 		"@mutablejs/dom": "^0.2.11"
 	}
 }

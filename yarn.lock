@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@mutablejs/core@^0.1.6", "@mutablejs/core@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@mutablejs/core/-/core-0.1.7.tgz#0b88a2f2441c6e749de26d765d287e632da4eec4"
-  integrity sha512-zbY/7DwVuXbvw6xK2qmZ7Slt/xk5KQt55MRa07a3k3T8D0y8JbTHZluWLvPSz3EhP2DfPBvPMQxtGR9+58rZAg==
+"@mutablejs/core@^0.1.6", "@mutablejs/core@^0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@mutablejs/core/-/core-0.1.71.tgz#f87062822b907320b75730e7fe08d26b8049046a"
+  integrity sha512-KnCN5uqRZe6v8jTn7PPak/mryhLBaLY/H9MvgzPcez+nO0X30X/+dCzGQyxP2OVvt9ongOQldV0l7+dDu6HQQg==
   dependencies:
     events "^3.3.0"
 
