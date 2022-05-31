@@ -1,4 +1,4 @@
-import mutable, { mutableFn } from '@mutablejs/core';
+import mutable, { mutableFn, processMaybeMutable } from '@mutablejs/core';
 import mutableElement from '@mutablejs/dom';
 
 //	App root
@@ -11,13 +11,16 @@ const input = mutable<string>('');
 //	Render function
 const children = mutableFn(({ todos: items }: { todos: string[] }) =>
 	items.map((item, i) =>
-		mutableElement('li', {
-			children: item,
-			style: 'cursor: no-drop; user-select: none;',
-			onclick: () => {
-				todos.value.splice(i, 1);
+		mutableElement(
+			'li',
+			{
+				style: 'cursor: no-drop; user-select: none;',
+				onclick: () => {
+					todos.value.splice(i, 1);
+				},
 			},
-		}),
+			item,
+		),
 	),
 );
 
@@ -72,9 +75,7 @@ root?.append(
 					}
 				},
 			}),
-			mutableElement('button', {
-				children: 'Add todo',
-			}),
+			mutableElement('button', {}, 'Add todo'),
 			mutableElement('ul', {}, children({ todos })),
 		],
 	),
