@@ -25,6 +25,9 @@
 		"start": "npx vite",
 		"build": "npx vite build"
 	},
+	"engines": {
+		"node": ">=17.0.0"
+	},
 	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://donnikitos.com/)",
 	"repository": {
 		"type": "git",
