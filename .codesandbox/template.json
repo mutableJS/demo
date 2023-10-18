@@ -1,0 +1,18 @@
+{
+	"title": "mutableJS / demo - Mini Todo App",
+	"description": "A mini todo app written using mutableJS.",
+	"tags": [
+		"typescript",
+		"jsx",
+		"signals",
+		"reactivity",
+		"mutability",
+		"DOM",
+		"mutableJS",
+		"hyperMedia",
+		"HyperText",
+		"Website",
+		"Webapp"
+	],
+	"published": true
+}

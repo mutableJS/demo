@@ -11,6 +11,10 @@ Demo repo: Simple ToDo-app written with [@mutablejs/core](https://www.npmjs.com/
 
 This is a proof of concept of the reactive mutability of DOM elements accomplished with the use of `@mutablejs/core` and `@mutablejs/dom`
 
+#### Try before using
+
+You can [try it out in CodeSandbox](https://codesandbox.io/p/sandbox/github/mutableJS/demo/tree/master?file=%2Fsrc%2Findex.tsx%3A1%2C1) before you clone and start using our demo app.
+
 ## Installation and Startup
 
 With **npm**:
